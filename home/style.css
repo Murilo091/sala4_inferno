@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+body{
+    background-image: url(../assets/images/coxa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    gap: 8px;
+    opacity: 0.8;
+    transition: all 200ms ease-in-out;
+}
+
+.nav-item:hover{
+    opacity: 1;
+}
+
+.icone-nav{
+    width: 40px;
+    height: auto;
+
+}
+
+.nav-item p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icone-nav:hover{
+    color: black;
+}
+
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.s1{
+    background-image: url(../);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 3px 12px black;
+}
+
+.s2{
+    height: 100vh;
+}
